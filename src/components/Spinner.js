@@ -47,6 +47,7 @@ export default function Spinner() {
     /* STEP 4 */
     setSpinnerOn(!spinnerOn);
   };
+  console.log(spinnerOn);
 
   return (
     <div className='widget-spinner container'>
